@@ -57,7 +57,7 @@
                         <div class="row ">
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <label class="control-label" for="image">Notice Featured Image <span
+                                    <label class="control-label" for="image">Project Featured Image <span
                                             class="optional">(optional)</span></label>
                                     <input type="file" class="form-control dropify" data-height="70"
                                         data-allowed-file-extensions="png jpg jpeg webp" id="image" name="image"
@@ -66,7 +66,7 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <label class="control-label" for="banner_image">Notice Banner Image <span
+                                    <label class="control-label" for="banner_image">Project Banner Image <span
                                             class="optional">(optional)</span></label>
                                     <input type="file" class="form-control dropify" data-height="70"
                                         data-allowed-file-extensions="png jpg jpeg webp" id="banner_image"
@@ -79,7 +79,7 @@
                         <div class="row ">
                             <div class="col-md-12">
                                 <div class="form-group">
-                                    <label class="control-label" for="description">Notice Description <span
+                                    <label class="control-label" for="description">Project Description <span
                                             class="optional">(optional)</span></label>
                                     <textarea type="text" class="form-control tinymce_advance" id="description"
                                         name="description" value="{{ old('description') }}"></textarea>
@@ -87,7 +87,7 @@
                             </div>
                             <div class="col-md-12">
                                 <div class="form-group">
-                                    <label class="control-label" for="meta_description">Notice Meta Description <span
+                                    <label class="control-label" for="meta_description">Project Meta Description <span
                                             class="optional">(optional)</span></label>
                                     <textarea type="text" class="form-control" id="meta_description" name="meta_description"
                                         value="{{ old('meta_description') }}"
