@@ -55,7 +55,7 @@
                     <div class="wrap-inner clearfix">
                         <div id="site-logo" class="clearfix">
                             <div id="site-log-inner">
-                                <a href="index.php" rel="home" class="main-logo">
+                                <a href="/" rel="home" class="main-logo">
                                     <img src="{{ url('public/web/assets/img/logo-small.png')}}" alt="Autora" width="100" height="20">
                                 </a>
                             </div>
