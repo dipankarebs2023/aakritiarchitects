@@ -17,7 +17,7 @@
                                         <div class="col-md-12">
                                             <div class="themesflat-spacer clearfix" data-desktop="60" data-mobile="60" data-smobile="60"></div>
                                             <div class="themesflat-headings style-1 text-center clearfix">
-                                                <img src="{{ url('web/assets/icon/apple-touch-icon-158-precomposed.png')}}" style="height:85px; width:85px;">
+                                                <img src="{{ url('public/web/assets/icon/apple-touch-icon-158-precomposed.png')}}" style="height:85px; width:85px;">
                                                 <h3 style="text-center">Aakriti</h3>
                                                 <p class="sub-heading" style="font-family: times new roman;">Architecture &nbsp&nbsp Engineering &nbsp&nbsp Mater Planning &nbsp&nbsp Interiors &nbsp&nbsp Pmc</p>
                                                 <div class="sep has-icon width-125 clearfix">

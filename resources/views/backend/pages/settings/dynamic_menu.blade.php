@@ -10,7 +10,7 @@
         @include('backend.layouts.partials.messages')
         
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-        <link rel="stylesheet" href="{{ asset('drag-drop/bootstrap-iconpicker/css/bootstrap-iconpicker.min.css')}}">
+        <link rel="stylesheet" href="{{ asset('public/drag-drop/bootstrap-iconpicker/css/bootstrap-iconpicker.min.css')}}">
 
 
         <div class="create-page">
@@ -102,9 +102,9 @@
 @endsection
 
 @section('scripts')
-<script src="{{ asset('drag-drop/jquery-menu-editor.js?v3')}}"></script>
-<script type="text/javascript" src="{{ asset('drag-drop/bootstrap-iconpicker/js/iconset/fontawesome5-3-1.min.js')}}"></script>
-<script type="text/javascript" src="{{ asset('drag-drop/bootstrap-iconpicker/js/bootstrap-iconpicker.min.js')}}"></script>
+<script src="{{ asset('public/drag-drop/jquery-menu-editor.js?v3')}}"></script>
+<script type="text/javascript" src="{{ asset('public/drag-drop/bootstrap-iconpicker/js/iconset/fontawesome5-3-1.min.js')}}"></script>
+<script type="text/javascript" src="{{ asset('public/drag-drop/bootstrap-iconpicker/js/bootstrap-iconpicker.min.js')}}"></script>
 
   <script>
 jQuery(document).ready(function () {

@@ -52,7 +52,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://3.6.124.112'),
+    'url' => env('APP_URL', 'https://akriti.ebluesys.com'),
 
     'asset_url' => env('ASSET_URL', null),
 

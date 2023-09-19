@@ -61,13 +61,13 @@
                 @foreach($slider_data as $row)
                 <tr>
                     <td>{{htmlspecialchars($row['title'] ?? 'No Title' )}}</td>
-                    <td><img src="{{ url('storage/' . $row['image_path']) }}" style="width:100px">
+                    <td><img src="{{ url('storage/app/public/' . $row['image_path']) }}" style="width:100px">
                     </td>
 
                     <td style="width:100px"><a href="show_slider/{{ $row['id']}}" class="btn btn-success"><i class="fas fa-check-square"></i>Edit</a>
                     </td>
                     <td style="width:150px">
-                        <p id="mlink_{{$row['id']}}" style="display:none">{{ url('storage/' . $row['image_path']) }}</p>  
+                        <p id="mlink_{{$row['id']}}" style="display:none">{{ url('storage/app/public/' . $row['image_path']) }}</p>  
                        
                         <button class="btn btn-primary"  onclick="copytxt('#mlink_{{$row["id"]}}',{{$row['id']}})" >Copy-Link</button>
                         <div id="copyMessage_{{$row['id']}}" style="color:green"></div>

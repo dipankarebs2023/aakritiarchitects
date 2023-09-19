@@ -7,14 +7,14 @@
     <!-- Mobile Specific Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <!-- Theme Style -->
-    <link rel="stylesheet" type="text/css" href="{{ url('web/style.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{ url('public/web/style.css')}}">
     <!-- Colors -->
-    <link rel="stylesheet" type="text/css" href="{{ url('web/assets/css/colors/color1.css')}}" id="colors">
+    <link rel="stylesheet" type="text/css" href="{{ url('public/web/assets/css/colors/color1.css')}}" id="colors">
 
 
     <!-- Favicon and Touch Icons  -->
     <link rel="shortcut icon" href="{{ url('web/assets/icon/favicon.png')}}">
-    <link rel="apple-touch-icon-precomposed" href="{{ url('web/assets/icon/apple-touch-icon-158-precomposed.png')}}">
+    <link rel="apple-touch-icon-precomposed" href="{{ url('public/web/assets/icon/apple-touch-icon-158-precomposed.png')}}">
 </head>
 
 <body class="header-fixed page no-sidebar header-style-2 topbar-style-2 menu-has-search">
@@ -56,7 +56,7 @@
                         <div id="site-logo" class="clearfix">
                             <div id="site-log-inner">
                                 <a href="index.php" rel="home" class="main-logo">
-                                    <img src="{{ url('web/assets/img/logo-small.png')}}" alt="Autora" width="100" height="20">
+                                    <img src="{{ url('public/web/assets/img/logo-small.png')}}" alt="Autora" width="100" height="20">
                                 </a>
                             </div>
                         </div><!-- /#site-logo -->
@@ -67,19 +67,19 @@
 
                         <nav id="main-nav" class="main-nav">
                             <ul id="menu-primary-menu" class="menu">
-                                <li class="menu-item menu-item-has-children current-menu-item">
+                                <li class="menu-item menu-item-has-children {{ Request::is('/') ? 'current-menu-item' : '' }}">
                                     <a href="/">HOME</a>
                                 </li>
-                                <li class="menu-item menu-item-has-children">
+                                <li class="menu-item menu-item-has-children {{ Request::is('about') ? 'current-menu-item' : '' }}">
                                     <a href="/about">ABOUT US </a>
                                 </li>
-                                <li class="menu-item menu-item-has-children">
+                                <li class="menu-item menu-item-has-children {{ Request::is('projects') ? 'current-menu-item' : '' }}">
                                     <a href="/projects">PROJECTS</a>
                                 </li>
-                                <li class="menu-item menu-item-has-children">
+                                <li class="menu-item menu-item-has-children {{ Request::is('services') ? 'current-menu-item' : '' }}">
                                     <a href="/services">SERVICES</a>
                                 </li>
-                                <li class="menu-item menu-item-has-children">
+                                <li class="menu-item menu-item-has-children {{ Request::is('contact') ? 'current-menu-item' : '' }}">
                                     <a href="/contact">CONTACT US</a>
                                 </li>
                             </ul>
