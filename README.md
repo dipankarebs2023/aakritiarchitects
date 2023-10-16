@@ -14,7 +14,7 @@
 
 **1. Clone From Github**
 ```bash
-git clone https://github.com/dipankarebs2023/College.git
+https://github.com/dipankarebs2023/aakritiarchitects.git
 ```
 
 **2. Go to that folder**
