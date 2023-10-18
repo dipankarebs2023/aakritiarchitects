@@ -40,9 +40,9 @@ Create a .env file by cloning .env.example file
 laravel_cms
 ```
 
-**5. Create a Database named**
+**5. Generate Key**
 ```bash
-laravel_cms
+php artisan key:generate
 ```
 
 **6. Run Migration & Seed**
