@@ -40,12 +40,17 @@ Create a .env file by cloning .env.example file
 laravel_cms
 ```
 
-**5. Run Migration & Seed**
+**5. Create a Database named**
+```bash
+laravel_cms
+```
+
+**6. Run Migration & Seed**
 ```bash
 php artisan migrate:fresh --seed
 ```
 
-**6. Run On Local Machine**
+**7. Run On Local Machine**
 ```bash
 php artisan serve
 ```
